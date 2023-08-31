@@ -1,0 +1,21 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "testElectronApp",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Francis",
+  "license": "ISC",
+  "devDependencies": {
+    "@sentry/cli": "^2.11.0",
+    "electron": "^22.0.0",
+    "electron-download": "^4.1.1"
+  },
+  "dependencies": {
+    "@sentry/electron": "^4.10.0",
+    "bindings": "^1.5.0",
+    "nan": "^2.17.0"
+  }
+}
